@@ -10,8 +10,8 @@ public with sharing class SpeciesService {
             FROM Species__c
             WHERE Name 
             LIKE :likeValue
-            ORDER BY Name
+            ORDER BY Id
         ];
     }
-    
+
 }
