@@ -5,8 +5,7 @@ import getFilteredSpecies from '@salesforce/apex/SpeciesService.getFilteredSpeci
 
 export default class SpeciesList extends LightningElement {
 
-    /*
-    species = [
+    /* species = [
         {
             Name: "Jazmin",
             Description__c: "Olorosa y bonita planta trepadora",
@@ -25,8 +24,7 @@ export default class SpeciesList extends LightningElement {
             Image_URL__c: "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/10/cuidados-de-las-plantas-telefono.jpg",
             Location__c: "Indoors, Outdoors"
         }
-    ];
-    */
+    ]; */
 
     // Properties, Getters and Setters
     searchText = '';
